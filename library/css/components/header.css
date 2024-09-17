@@ -83,7 +83,7 @@
 
 .ui.header > .upper-head > .left-container > a {
   /* color: #232323; */
-  color : #ffffff;
+  color : var(--black);
   text-decoration: none;
 }
 
@@ -98,6 +98,7 @@
   font-size: 0.75rem;
   justify-content: space-between;
   width: 3.5rem;
+  color: black;
 }
 
 .ui.header .accessibility {
@@ -125,14 +126,17 @@
 
 .ui.header .sizechange .small {
   font-size: 14px;
+  color: black;
 }
 
 .ui.header .sizechange .medium {
   font-size: 16px;
+  color: black;
 }
 
 .ui.header .sizechange .big {
   font-size: 18px;
+  color: black;
 }
 
 .ui.header .main-head {
@@ -161,7 +165,7 @@
 
 .ui.header > .upper-head > .right-container > .accessibility > .page-options > span > a {
   /* always white */
-  color: #ffffff;
+  color: var(--black);
 }
 
 

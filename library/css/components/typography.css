@@ -1,5 +1,15 @@
 .ui.section-heading {
-  color: white;
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  /* padding: 1.25rem 0; */
+  letter-spacing: 0.0625rem;
+  line-height: 1.5rem;
+  font-family: var(--font-lato);
+}
+.ui.section-heading1{
+  color: black;
   font-weight: 500;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -87,7 +97,7 @@
 }
 
 .ui.intro-text {
-  color: var(--grey);
+  color:black;
   /* padding: 1rem 0; */
   line-height: 1.2rem;
 }

@@ -269,7 +269,7 @@
 }
 
 .footer-copyright {
-  color:white;
+  color:black;
   display: flex;
   background-color: var(--footer-background);
 

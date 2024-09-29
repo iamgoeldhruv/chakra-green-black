@@ -18,8 +18,8 @@
 }
 
 .ui.bulleted-list > .listItem:hover {
-    background-color: var(--white); /* Change background color to white on hover */
-    /*  */border: 2px solid var(--white); /* Add yellow border on hover */
+    background-color: var(--bg-yellow); /* Change background color to white on hover */
+    /*  */border: 2px solid var(--bg-yellow); /* Add yellow border on hover */
     /* color: black; Change text color to black for better contrast */
     border-radius: 0.5rem ;
     width: fit-content;

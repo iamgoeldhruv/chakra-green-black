@@ -45,7 +45,7 @@
 .footer .ui.link {
   text-decoration: none !important;
   margin: 0rem;
-  color: var(--black);
+  color: white;
   justify-content: flex-start;
   line-height: 24px;
   margin: 10px 0 10px 0;
@@ -101,7 +101,7 @@
 
 .footer-headers {
   /* color: var(--hover-black) !important; */
-  color: var(--black);
+  color: white;
   font-family: var(--font-family-segoe) !important;
   font-size: 24px;
   line-height: 22.4px;
@@ -111,7 +111,7 @@
 
 /* todo: rework dark mode */
 .dark .footer-headers {
-  color: var(--black);
+  color: white;
 }
 
 .footer-links-columns {
@@ -135,7 +135,7 @@
 .footer-links-column .ui.link {
   line-height: 1;
   text-decoration: none;
-  color: var(--black);
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -156,7 +156,7 @@
   margin-left: 150px;
   text-decoration: none !important;
   /* color: var(--hover-black) !important; */
-  color: var(--black);
+  color: white;
   font-family: var(--font-family-segoe) !important;
   font-size: 24px;
   line-height: 30.8px;
@@ -164,7 +164,7 @@
 
 /* todo: rework dark mode */
 .dark .footer-text {
-  color: var(--black);
+  color: white;
 }
 
 .lower-footer-container {
@@ -173,7 +173,7 @@
 
 .lower-footer-link {
   text-decoration: none !important;
-  color: var(--black) !important;
+  color: white !important;
   font-family: var(--font-family-segoe) !important;
   font-size: 14px;
   line-height: 24px;
@@ -181,14 +181,14 @@
 }
 
 .copyright-container {
-  background-color: var(--black);
+  background-color: white;
 }
 
 .copyright-text {
   font-family: car(--font-family-segoe);
   font-size: 12px;
   line-height: 24px;
-  color: var(--light-grey);
+  color: var(white);
   margin: 0 10px 0 10px;
 }
 
@@ -229,14 +229,18 @@
   color: white;
   font-size: 24px;
   transition: color 0.3s;
-  background-color: var(--primary);
+  background-color: var(--icons-bg);
 }
 
 .madebylabel {
   line-height: 24px;
   margin-top: 2rem;
   margin-top: 2rem;
-  color: var(--black);
+  color: white;
+}
+.link1{
+  color: white;
+  text-decoration: none;
 }
 
 .weather>.ui.link {
@@ -262,14 +266,14 @@
 
 .footer-accessibility-flex>.ui.link {
   text-decoration: none !important;
-  color: var(--black);
+  color: var(--whitw);
   /* justify-content: flex-start; */
   margin: 0rem 0.5rem;
   align-items: flex-end;
 }
 
 .footer-copyright {
-  color:black;
+  color:white;
   display: flex;
   background-color: var(--footer-background);
 
@@ -369,6 +373,7 @@
     width: auto;
     font-size: 12px;
     margin: 0px;
+    color:white;
   }
 
   .footer-right-bottom>.ui.link {
